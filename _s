@@ -1,4 +1,4 @@
 #compdef s
 
-_s_paths=(~/.zsh/local/s)
+_s_paths=("$S_DIR")
 _path_files -W _s_paths

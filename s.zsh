@@ -1,3 +1,5 @@
+export S_DIR=~/.s
+
 s() {
-  source ~/.zsh/local/s/"$1"
+  source "$S_DIR/$1"
 }
