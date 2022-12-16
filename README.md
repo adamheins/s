@@ -53,6 +53,17 @@ unset ROS_HOSTNAME
 echo ROS_MASTER_URI=$ROS_MASTER_URI
 echo Unset ROS_IP and ROS_HOSTNAME
 ```
+Now you can easily switch ROS configurations:
+```
+> s ros/myrobot.sh
+...
+> s ros/local.sh
+...
+```
+The `ros/local.sh` script as well as another called `ros/devel.bash`, which
+automatcally sources the `devel/setup.bash` script from anywhere in the catkin
+workspace, are included in the `examples` directory.
+
 
 ## Installation
 
