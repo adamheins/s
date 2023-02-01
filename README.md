@@ -47,7 +47,7 @@ Now you can easily switch ROS configurations:
 ...
 ```
 The `ros/local.sh` script as well as another called `ros/devel.bash`, which
-automatcally sources the `devel/setup.bash` script from anywhere in the catkin
+automatically sources the `devel/setup.bash` script from anywhere in the catkin
 workspace, are included in the `examples` directory.
 
 
