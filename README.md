@@ -13,20 +13,6 @@ bash and zsh.
 
 ## Examples
 
-### A long directory name
-
-Suppose you have some long directory names you need to access now and then for
-command-line tools, but it is a pain to type them out. For example, let's work
-with `~/very/long/path/i/dont/want/to/type/each/time`. We can just make a
-script `$S_SIR/long.sh` which contains
-```
-echo ~/very/long/path/i/dont/want/to/type/each/time
-```
-Now I can easily use it like so:
-```
-> ls $(s long.sh)
-```
-
 ### ROS
 
 Suppose I have different robots or machines I want to communicate with (at
