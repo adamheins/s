@@ -13,6 +13,14 @@ bash and zsh.
 
 ## Examples
 
+### Python Virtual Environment
+
+It's kind of annoying to navigate to the root of a Python project and type
+`source .venv/bin/activate` whenever I want to enter its virtual environment.
+If copied to `$S_DIR`, the script `examples/venv.sh` allows one to source the
+virtual environment from *anywhere* in the project directory tree by simply
+running `s venv.sh` (which can be conveniently tab-completed).
+
 ### ROS
 
 Suppose I have different robots or machines I want to communicate with (at
