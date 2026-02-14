@@ -7,7 +7,7 @@ A simple tool for easily sourcing shell scripts. Scripts are located in the
 > s path/to/script.sh
 ```
 where the script is located at `$S_DIR/path/to/script.sh`. The real convenience
-of this tool is the fact that these paths can be autocompleted with tab,
+of this tool is that these paths can be auto-completed by pressing tab,
 allowing quick sourcing from anywhere. Completion scripts are provided for both
 bash and zsh.
 
